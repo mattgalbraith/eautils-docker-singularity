@@ -2,7 +2,7 @@
 FROM --platform=linux/amd64 ubuntu:20.04 as build
 
 ################## METADATA ######################
-LABEL base_image="tool:VERSION"
+LABEL base_image="Ubuntu:20.04"
 LABEL version="1.0.0"
 LABEL software="ea-utils"
 LABEL software.version="1.04.807"
